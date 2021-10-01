@@ -1,0 +1,71 @@
+#myTitle {
+	font-size: 20px;
+}
+
+div.header{
+	background: yellow;
+	@font-face font-family: myFirstFont; src: url(eurostile-extended-black.ttf);
+
+	font-family:Eurostile Extended Black; 
+	color:black;
+	padding: 15px 32px;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	opacity: 0.6;
+	z-index: 999;
+	height: 90px;
+	overflow: hidden;
+}
+
+div.headerPart2{
+	text-align: right;
+	text-align: top;
+	margin-right:50px ;
+}
+
+div.text1{
+	margin-top: 150px;
+	
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+body{
+	background-color:gray;
+}
+
+div.middlePart{
+	margin-left:50px ;
+}
+
+div.video1{
+	align-content: right;
+	margin-left: 1000px;
+}
+
+div.albumImg{
+	margin-right: 17px;
+	margin-left: 17px;
+}
+
+#ConcertText{
+	text-align: center;	
+}
+
+div.email{
+	margin-left: 30px;
+}
+
+footer{
+	margin: auto;
+	padding: 1%;
+
+	background-color: yellow;
+	color: black;
+	text-align: center;
+}
+
+

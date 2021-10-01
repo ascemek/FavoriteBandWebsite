@@ -1,0 +1,65 @@
+#myTitle {
+	font-size: 20px;
+}
+div.header{
+	background: yellow;
+	@font-face font-family: myFirstFont; src: url(eurostile-extended-black.ttf);
+
+	font-family:Eurostile Extended Black; 
+	color:black;
+	padding: 15px 32px;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	opacity: 0.6;
+	z-index: 999;
+	height: 90px;
+	overflow: hidden;
+}
+
+div.headerPart2{
+	text-align: right;
+	text-align: top;
+	margin-right:50px ;
+}
+
+body{
+	background-color:black;
+}
+
+div.banner{
+	margin-top: 120px;
+	/*
+	margin-right: 50px;
+	margin-left: 50px;*/
+}
+
+div.StateForms{
+	color: yellow;
+	margin-left: 30px;
+}
+
+div.email{
+	color: yellow;
+	margin-left: 30px;
+}
+
+#TicketTitle{
+	text-align: center;	
+}
+
+div.endImages{
+	margin-left: 50px;
+	color: yellow;
+}
+
+footer{
+	margin: auto;
+	padding: 1%;
+
+	background-color: yellow;
+	color: black;
+	text-align: center;
+}
